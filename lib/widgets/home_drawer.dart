@@ -38,7 +38,7 @@ class _HomeDrawerState extends State<HomeDrawer> with TickerProviderStateMixin{
               padding: const EdgeInsets.fromLTRB(0, 20, 8, 0),
               child: IconButton(onPressed: ()=>context.back(), icon: const Icon(Icons.arrow_forward))),
           ),
-          Image.asset("res/logo/app_logo.png"),
+          Image.asset("res/logo/app_logo.png", width: 200,),
           16.h(),
           StringConst.welcomeText1.ts(context),
           4.h(),

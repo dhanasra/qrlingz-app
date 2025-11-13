@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:bloc/bloc.dart';
 import 'package:excel/excel.dart';
 import 'package:flutter/material.dart';
-import 'package:open_file_plus/open_file_plus.dart';
+import 'package:open_filex/open_filex.dart';
 import 'package:qrlingz_app/network/models/feedback_data.dart';
 import 'package:screenshot/screenshot.dart';
 
@@ -67,7 +67,7 @@ class FeedbackBloc extends Bloc<FeedbackEvent, FeedbackState> {
     final file = File('${directory.path}/feedback-reviews-qrlingz.xlsx');
     var fileBytes = excel.save();
     await file.writeAsBytes(fileBytes??[]);
-    OpenFile.open(file.path);
+    OpenFilex.open(file.path);
   }
 
   _onGetReviews(GetReviewsEvent event, Emitter emit) async {

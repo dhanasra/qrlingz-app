@@ -59,8 +59,9 @@ class _VideoUploadState extends State<VideoUpload> {
             : Visibility(
                 visible: true,
                 child: DottedBorder(
-                  radius: const Radius.circular(8),
-                  borderType: BorderType.RRect,
+                  options: const RoundedRectDottedBorderOptions(
+                    radius: Radius.circular(8)
+                  ),
                   child: Container(
                     height: 240,
                     width: double.infinity,

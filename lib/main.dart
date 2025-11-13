@@ -24,11 +24,11 @@ void main() async{
 
   await Firebase.initializeApp(
     options: const FirebaseOptions( 
-      apiKey: "AIzaSyAJMazs8SsnxvS8xgJIaHOqDVj2of7h88c", 
-      appId: "1:1054371633362:android:ecb77d7a1920f3731bb50b", 
-      messagingSenderId: "1054371633362", 
-      projectId: "qrlingz",
-      storageBucket: "qrlingz.appspot.com"
+      apiKey: "AIzaSyDfCSXcapJVwkkEouSaM3E3mmRlX_2wfZE", 
+      appId: "1:2990779631:android:eaa75206f48323f87a7f1a", 
+      messagingSenderId: "2990779631", 
+      projectId: "qrlingz-ai",
+      storageBucket: "qrlingz-ai.appspot.com"
     )
   );
 

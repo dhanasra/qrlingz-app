@@ -3,7 +3,7 @@ import 'dart:math';
 
 import 'package:barcode_widget/barcode_widget.dart';
 import 'package:flutter/material.dart';
-import 'package:open_file_plus/open_file_plus.dart';
+import 'package:open_filex/open_filex.dart';
 
 String? colorToString(Color? color) {
     if(color==null){
@@ -135,7 +135,7 @@ Future<void> saveVCard({required String data}) async {
     final directory = Directory('/storage/emulated/0/Download');
     final file = File('${directory.path}/qrlingz.vcf');
     await file.writeAsString(data);
-    OpenFile.open(file.path);
+    OpenFilex.open(file.path);
   } catch (_) {}
 }
 

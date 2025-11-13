@@ -3,12 +3,6 @@ buildscript {
         google()
         mavenCentral()
     }
-
-    dependencies {
-        classpath 'com.android.tools.build:gradle:7.4.2'
-        classpath 'com.google.gms:google-services:4.3.15'
-        classpath 'com.google.firebase:firebase-crashlytics-gradle:2.7.1'
-    }
 }
 
 allprojects {
@@ -29,4 +23,24 @@ subprojects {
 
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
+}
+subprojects { project ->
+    if (project.hasProperty('android')) {
+        project.android {
+            if (namespace == null) {
+                def manifestFile = file("${project.projectDir}/src/main/AndroidManifest.xml")
+                if (manifestFile.exists()) {
+                    def manifestText = manifestFile.getText('UTF-8')
+                    def matcher = manifestText =~ /package="([^"]+)"/
+                    if (matcher.find()) {
+                        namespace matcher.group(1)
+                    } else {
+                        namespace project.name // fallback
+                    }
+                } else {
+                    namespace project.name // fallback
+                }
+            }
+        }
+    }
 }

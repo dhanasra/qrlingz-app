@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_neumorphic_plus/flutter_neumorphic.dart';
 import 'package:lottie/lottie.dart';
-import 'package:qr_code_scanner/qr_code_scanner.dart';
+import 'package:qr_code_scanner_plus/qr_code_scanner_plus.dart';
 import 'package:qrlingz_app/constants/assets_const.dart';
 import 'package:qrlingz_app/constants/color_const.dart';
 import 'package:qrlingz_app/constants/string_const.dart';

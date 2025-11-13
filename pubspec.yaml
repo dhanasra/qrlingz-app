@@ -16,7 +16,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 # https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
 # In Windows, build-name is used as the major, minor, and patch parts
 # of the product and file versions while build-number is used as the build suffix.
-version: 2.0.0+9
+version: 1.0.2
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
@@ -37,71 +37,70 @@ dependencies:
   cupertino_icons: ^1.0.6
 
   #firebase
-  firebase_core: ^2.30.0
-  firebase_auth: ^4.19.4
-  firebase_analytics: ^10.10.2
-  firebase_crashlytics: ^3.5.2
-  firebase_remote_config: ^4.4.2
-  firebase_messaging: ^14.9.3
-  cloud_firestore: ^4.17.1
-  firebase_storage: ^11.7.4
-  google_sign_in: ^6.2.1
+  firebase_core: ^4.0.0
+  firebase_auth: ^6.0.0
+  firebase_analytics: ^12.0.0
+  firebase_crashlytics: ^5.0.0
+  firebase_remote_config: ^6.0.0
+  firebase_messaging: ^16.0.0
+  cloud_firestore: ^6.0.0
+  firebase_storage: ^13.0.0
+  google_sign_in: ^6.3.0
   flutter_rating_bar: ^4.0.1
 
   #style
-  google_fonts: ^6.2.1
+  google_fonts: ^6.3.0
 
   #file
-  open_file_plus: ^3.4.1+1
-  file_picker: ^8.0.3
-  video_player: ^2.8.6
+  open_filex: ^4.7.0
+  file_picker: ^10.2.4
+  video_player: ^2.10.0
 
   #SML
-  bloc: ^8.1.4
-  flutter_bloc: ^8.1.5
+  bloc: ^9.0.0
+  flutter_bloc: ^9.1.1
 
   #localstorgae
   hive: ^2.2.3
   hive_flutter: ^1.1.0
 
   #routes
-  page_transition: ^2.1.0
+  page_transition: ^2.2.1
 
   #language
-  easy_localization: ^3.0.2
+  easy_localization: ^3.0.8
 
   #notifications
-  flutter_local_notifications: ^17.1.2
+  flutter_local_notifications: ^19.4.0
 
   #widgets
-  excel: ^4.0.3
-  audioplayers: ^6.0.0
+  excel: ^4.0.6
+  audioplayers: ^6.5.0
   barcode_widget: ^2.0.4
-  barcode_scan2: ^4.1.5
-  device_info_plus: ^9.0.1
-  dotted_border: ^2.1.0
+  barcode_scan2: ^4.5.1
+  device_info_plus: ^11.5.0
+  dotted_border: ^3.1.0
   csv: ^6.0.0
-  flutter_neumorphic_plus: ^3.3.0
-  google_mlkit_barcode_scanning: ^0.12.0
-  google_mobile_ads: ^5.1.0
-  image_gallery_saver: ^2.0.3
-  in_app_review: ^2.0.9
-  image_cropper: ^5.0.1
-  image_picker: ^1.1.0
-  lottie: ^3.1.0
-  like_button: ^2.0.5
-  path_provider: ^2.1.3
-  permission_handler: ^11.3.1
-  path: ^1.9.0
-  pretty_qr_code: ^3.3.0
-  qr_code_scanner: ^1.0.1
+  flutter_neumorphic_plus: ^3.5.0
+  google_mlkit_barcode_scanning: ^0.14.1
+  google_mobile_ads: ^6.0.0
+  image_gallery_saver_plus: ^4.0.1
+  in_app_review: ^2.0.10
+  image_cropper: ^9.1.0
+  image_picker: ^1.1.2
+  lottie: ^3.0.0
+  like_button: ^2.1.0
+  path_provider: ^2.1.5
+  permission_handler: ^12.0.1
+  path: ^1.9.1
+  pretty_qr_code: ^3.5.0
+  qr_code_scanner_plus: ^2.0.10+1
   dropdown_button2: ^2.3.9
-  share_plus: ^7.0.1
-  screenshot: ^2.3.0
-  scan: ^1.6.0
-  url_launcher: ^6.2.6
-  vibration: ^1.8.4
-  webview_flutter: ^4.7.0
+  share_plus: ^11.0.0
+  screenshot: ^3.0.0
+  url_launcher: ^6.3.2
+  vibration: ^3.1.3
+  webview_flutter: ^4.13.0
 
 dev_dependencies:
   flutter_test:
@@ -123,7 +122,7 @@ dev_dependencies:
 flutter_icons:
   android: true
   ios: true
-  image_path: "res/logo/color-logo.png"
+  image_path: "res/logo/bw_logo.png"
 
 flutter:
 

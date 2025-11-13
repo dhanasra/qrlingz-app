@@ -33,15 +33,6 @@ class ImageBloc extends Bloc<ImageEvent, ImageState> {
 
       CroppedFile? croppedFile = await ImageCropper().cropImage(
         sourcePath: file.path,
-        cropStyle: CropStyle.rectangle,
-        aspectRatioPresets: [
-          CropAspectRatioPreset.square,
-          CropAspectRatioPreset.ratio3x2,
-          CropAspectRatioPreset.ratio7x5,
-          CropAspectRatioPreset.ratio4x3,
-          CropAspectRatioPreset.ratio16x9,
-          CropAspectRatioPreset.original,
-        ],
         uiSettings: [
           AndroidUiSettings(
               toolbarTitle: 'Crop Image',
@@ -82,15 +73,15 @@ class ImageBloc extends Bloc<ImageEvent, ImageState> {
 
       CroppedFile? croppedFile = await ImageCropper().cropImage(
         sourcePath: file.path,
-        cropStyle: CropStyle.rectangle,
-        aspectRatioPresets: [
-          CropAspectRatioPreset.square,
-          CropAspectRatioPreset.ratio3x2,
-          CropAspectRatioPreset.ratio7x5,
-          CropAspectRatioPreset.ratio4x3,
-          CropAspectRatioPreset.ratio16x9,
-          CropAspectRatioPreset.original,
-        ],
+        // cropStyle: CropStyle.rectangle,
+        // aspectRatioPresets: [
+        //   CropAspectRatioPreset.square,
+        //   CropAspectRatioPreset.ratio3x2,
+        //   CropAspectRatioPreset.ratio7x5,
+        //   CropAspectRatioPreset.ratio4x3,
+        //   CropAspectRatioPreset.ratio16x9,
+        //   CropAspectRatioPreset.original,
+        // ],
         uiSettings: [
           AndroidUiSettings(
               toolbarTitle: 'Crop Image',

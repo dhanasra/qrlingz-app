@@ -30,8 +30,9 @@ class PictureUpload extends StatelessWidget {
             Visibility(
               visible: file==null,
               replacement: DottedBorder(
-                radius: const Radius.circular(8),
-                borderType: BorderType.RRect,
+                options: const RoundedRectDottedBorderOptions(
+                  radius: Radius.circular(8)
+                ),
                 child: Container(
                   height: 300,
                   width: double.infinity,
@@ -56,8 +57,9 @@ class PictureUpload extends StatelessWidget {
                 ),
               ),
               child: DottedBorder(
-                radius: const Radius.circular(8),
-                borderType: BorderType.RRect,
+                options: const RoundedRectDottedBorderOptions(
+                  radius: Radius.circular(8)
+                ),
                 child: Container(
                   height: 240,
                   width: double.infinity,

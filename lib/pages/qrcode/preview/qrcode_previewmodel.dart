@@ -3,7 +3,7 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:image_gallery_saver/image_gallery_saver.dart';
+import 'package:image_gallery_saver_plus/image_gallery_saver_plus.dart';
 import 'package:qrlingz_app/base/base_viewmodel.dart';
 import 'package:qrlingz_app/models/qr_data.dart';
 import 'package:qrlingz_app/utils/global.dart';
@@ -44,9 +44,9 @@ class QrCodePreviewModel extends BaseViewModel {
   saveToGallery(BuildContext context)async{
     var bytes = await controller.capture();
     if(bytes!=null){
-      final result = await ImageGallerySaver.saveImage(bytes);
+      final result = await ImageGallerySaverPlus.saveImage(bytes);
       Toast.show(context, message: 'Image downloaded successfully !', onOk: (){
-        launchUrlString(result['filePath']);
+        launchUrlString(result?['filePath'] ?? '');
       });
     }
   }

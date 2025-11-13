@@ -45,7 +45,7 @@ class ThemeConst {
       cardColor: isDark ? Colors.black : Colors.white,
       shadowColor: isDark ? const Color(0xFF444444) : const Color(0x88DFDFDF),
 
-      tabBarTheme: TabBarTheme(
+      tabBarTheme: TabBarThemeData(
         labelColor: isDark ? ColorConst.primaryLight : ColorConst.primary,
         unselectedLabelColor: !isDark ? Colors.grey[400] : Colors.white38,
         indicatorColor: isDark ? ColorConst.primaryLight : ColorConst.primary,

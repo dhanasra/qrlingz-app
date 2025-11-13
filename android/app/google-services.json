@@ -1,41 +1,41 @@
 {
   "project_info": {
-    "project_number": "1054371633362",
-    "project_id": "qrlingz",
-    "storage_bucket": "qrlingz.appspot.com"
+    "project_number": "2990779631",
+    "project_id": "qrlingz-ai",
+    "storage_bucket": "qrlingz-ai.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1054371633362:android:ecb77d7a1920f3731bb50b",
+        "mobilesdk_app_id": "1:2990779631:android:eaa75206f48323f87a7f1a",
         "android_client_info": {
-          "package_name": "com.spiderlingz.qrlingz"
+          "package_name": "com.qrlingz"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1054371633362-r4cbc9qch68dri4v36dc8jso0cou3mu9.apps.googleusercontent.com",
+          "client_id": "2990779631-u4gd3s9adrr31vj1gq622n2rscohmjgu.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.spiderlingz.qrlingz",
-            "certificate_hash": "52e3b26e582df93e0799c49fff14f6f0178a9536"
+            "package_name": "com.qrlingz",
+            "certificate_hash": "770f157c978b00e8baf90d2d116bd2084593f403"
           }
         },
         {
-          "client_id": "1054371633362-tqlkv0d882ne0bbf3kiu0t7teplmo6v5.apps.googleusercontent.com",
+          "client_id": "2990779631-mdf8i88rrlh7e00gu59lgdjmc3i643qh.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAJMazs8SsnxvS8xgJIaHOqDVj2of7h88c"
+          "current_key": "AIzaSyDfCSXcapJVwkkEouSaM3E3mmRlX_2wfZE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1054371633362-tqlkv0d882ne0bbf3kiu0t7teplmo6v5.apps.googleusercontent.com",
+              "client_id": "2990779631-mdf8i88rrlh7e00gu59lgdjmc3i643qh.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
