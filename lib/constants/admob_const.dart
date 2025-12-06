@@ -13,10 +13,10 @@ class AdmobConst {
   static const nativeAdTest = "ca-app-pub-3940256099942544/2247696110";
 
   //real ads
-  static const appOpenAd1 = "ca-app-pub-1357967781692420/2081692604";
-  static const bannerAd1 = "ca-app-pub-1357967781692420/5801445761";
-  static const bannerAd2 = "ca-app-pub-1357967781692420/6577704332";
-  static const interstitialAd1 = "ca-app-pub-1357967781692420/2698169072";
-  static const nativeAd1 = "ca-app-pub-1357967781692420/6611964558";
+  static const appOpenAd1 = "ca-app-pub-8483477198208322/8752235324";
+  static const bannerAd1 = "ca-app-pub-8483477198208322/4391701377";
+  static const bannerAd2 = "ca-app-pub-8483477198208322/3581360192";
+  static const interstitialAd1 = "ca-app-pub-8483477198208322/1065316991";
+  static const nativeAd1 = "ca-app-pub-8483477198208322/9955196857";
 
 }
